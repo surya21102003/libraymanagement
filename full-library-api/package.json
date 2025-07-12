@@ -1,0 +1,26 @@
+
+
+{
+  "name": "full-library-api",
+  "version": "1.0.0",
+  "description": "RESTful API for a book management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+     "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
