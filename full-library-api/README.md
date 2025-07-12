@@ -16,7 +16,7 @@
 - middleware/
 - config/
 - utils/
-- uploads/
+  
 
 ## API Endpoints
 
