@@ -14,8 +14,12 @@ const app = express();
 
 connectDB();
 
-
 app.use(express.json()); 
+
+app.get('/',(req,res)=>{
+    res.send('backend is running');
+})
+
 
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
